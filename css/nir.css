@@ -1,0 +1,52 @@
+/* position: static, relative, absolute, fixed */
+header{
+    height: 35vh;
+    background: blue    ;
+    position: relative;
+}
+header>div.userImage{
+    position: absolute;
+    bottom: -5vh;
+    left: 15vh;
+    height: 25vh;
+    width: 25vh;
+    background: cyan;
+    margin: 3vh 10%;
+    border-radius: 50%;
+}
+
+#img{
+    border-radius: 50%;
+}
+
+div.katz{
+    height: 25vh;
+    margin: 3vh 10%;
+    background: greenyellow;
+}
+
+div:nth-child(3){
+    box-shadow: 0 5px 15px -2px black;
+    padding-top: 50px;
+}
+
+div:nth-child(4){
+    box-shadow: -6px -5px 10px 0 black;
+}
+
+div:nth-child(5){
+    box-shadow: 0px 0px 10px 3px purple;
+}
+
+div:nth-child(7){
+    box-shadow:inset 10px -10px 40px 15px white;
+}
+
+#ironBall{
+    margin: 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    box-shadow: inset 10px -10px 40px 15px rgb(220, 1, 1);
+}
